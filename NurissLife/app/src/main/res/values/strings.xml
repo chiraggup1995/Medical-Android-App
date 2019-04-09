@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Nuriss Life Care</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Display Heading of selected item -->
+    <string name="screen_home">Home</string>
+    <string name="screen_aboutus">About Us</string>
+    <string name="screen_products">Products</string>
+    <string name="screen_career">Carrer</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="aboutus_small">&quot;Creating superior and cost affective product of international standard is what we aim for.&quot; </string>
+    <string name="aboutus_large">WE PROVIDE HEALTH OF INTERNATIONAL STANDARD (WHO PARAMETER) OF BEST QUALITY HEALTH PRODUCT</string>
+    
+    <!-- Google Api-->
+    <string name="google_api_key">AIzaSyCjGp_5T2u0HC-mXAtgSz974XcLcdILQcw</string>
+
+    <!--Home-->
+    <string name="login_me">Already Registered! Login Me</string>
+    <string name="btn_logout">LOGOUT</string>
+    
+    <string name="help_about">NURISS Lifecare Pvt. Ltd. is a privately held Indian Pharmaceutical manufacturing company involved in manufacture and supply of wide range of avant-garde pharmaceuticals to semi-regulated and non regulated markets across the globe. Our commitment to provide world class quality, competitive pricing and a constant urge to explore new therapeutic segments and expand our product portfolio has gained us a reputation as a global manufacturer of medicines with world class quality products.</string>
+    <string name="help_about1">We are truly committed towards manufacture and supply of finest quality medication used for the treatment of various life threatening diseases and conditions. NURISS Lifecare Pvt. Ltd. has a robust product portfolio spread over major therapeutic areas particularly Cardiovascular Drugs, Anticancer Drugs, Anti-Retroviral, Antibiotics, Anti Tubercular Medication, Analgesics and Antipyretics and others.</string>
+    <string name="faq_1">Urnifer is a very good source of iron which improves haemoglobin and cures anaemia in women ,children and old age people. </string>
+    <string name="faq_2">Caluris is a very good source of calcium and its absorption is very fast . It also helps in growth of bone in children and growing population and it protects bone of Women and old age people. </string>
+    <string name="faq_3">It is good source of protein. It helps in growth and improvement in children ,women ,old age, working class, students and sick people. </string>
+    <string name="faq">Below are some question that are frequently asked by customer</string>
+    <string name="contct">Address:&#160;&#160;RZ-440/318,Road No-7,Geetanjali &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Park,West Sagarpur, New Delhi-110046</string>
+    <string name="contct1">Phone:&#160;&#160;&#160;&#160;+91 9557627315</string>
+    <string name="contct2">Email:&#160;&#160;&#160;&#160;&#160;&#160;nurisslife4all@gmail.com </string>
+    <string name="contct3">NURISS Lifecare Pvt. Ltd. is a privately held Indian Pharmaceutical manufacturing company involved in manufacture and supply of wide range of avant-garde pharmaceuticals to semi-regulated and non regulated markets across the globe.
+\r\n\r\nOur commitment to provide world class quality, competitive pricing and a constant urge to explore new therapeutic segments and expand our product portfolio has gained us a reputation as a global manufacturer of medicines with world class quality products.
+</string>
+
+</resources>

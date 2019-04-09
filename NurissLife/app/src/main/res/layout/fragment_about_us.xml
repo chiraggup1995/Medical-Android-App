@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:weightSum="1">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/viewflip">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:background="@color/common_action_bar_splitter"
+                android:layout_gravity="center"
+                android:src="@mipmap/profile"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:background="@color/common_action_bar_splitter"
+                android:layout_gravity="center"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/office"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:background="@color/common_action_bar_splitter"
+                android:layout_gravity="center"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/nuriis"/>
+        </ViewFlipper>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Our Services "
+            android:id="@+id/abouttextlong" />
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:scrollHorizontally="false"
+            android:layout_below="@+id/textView2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/aboutus_small"
+            android:id="@+id/abouttextsmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:includeFontPadding="true"
+            android:textColor="#ffffff"
+            android:background="@color/lbl_name"
+            android:text="@string/aboutus_large"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:background="#9b51dc"
+                android:layout_height="match_parent"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/ic_people_black_24dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:background="#51c7dc"
+                android:layout_height="match_parent"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/ic_local_airport_black_24dp"/>
+
+            <ImageView
+                android:background="#ed5986"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/ic_local_atm_black_24dp"/>
+
+            <ImageView
+                android:background="#51dc92"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/ic_add_shopping_cart_black_24dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:shadowColor="#9b51dc"
+                android:shadowRadius="3"
+                android:layout_width="75dp"
+                android:textColor="#9b51dc"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Excellent Support"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:textSize="12sp"
+                android:shadowColor="#51c7dc"
+                android:shadowRadius="3"
+                android:layout_marginLeft="20dp"
+                android:textColor="#51c7dc"
+                android:layout_height="match_parent"
+                android:text="On Time Delivery"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:textSize="12sp"
+                android:shadowColor="#ed5986"
+                android:shadowRadius="3"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:textColor="#ed5986"
+                android:text="Low Cost"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:textColor="#4aca86"
+                android:shadowColor="#4aca86"
+                android:shadowRadius="3"
+                android:text="Bulk Orders"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:layout_marginLeft="90dp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:text="HOW WE CAN HELP YOU?"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/back1"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/help_about"
+                android:lines="11"
+                android:layout_gravity="fill_horizontal"
+                android:maxLines="11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/help_about1"
+                android:layout_gravity="fill_horizontal"
+                android:lines="11"
+                android:maxLines="11"/>
+         </LinearLayout>
+    </LinearLayout>
+</ScrollView>
